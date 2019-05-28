@@ -50,6 +50,7 @@ module.exports = (context, options = {}) => {
     configPath,
     include,
     exclude,
+    corejs = 3,
     shippedProposals,
     forceAllTransforms,
     decoratorsBeforeExport,
@@ -123,6 +124,7 @@ module.exports = (context, options = {}) => {
     ignoreBrowserslistConfig,
     configPath,
     include,
+    corejs,
     exclude: polyfills.concat(exclude || []),
     shippedProposals,
     forceAllTransforms
