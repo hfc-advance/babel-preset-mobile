@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-mobile",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "搭建基于移动端web页面的babel预设",
   "main": "index.js",
   "scripts": {
